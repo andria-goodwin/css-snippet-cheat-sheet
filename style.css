@@ -1,0 +1,37 @@
+:root {
+    --text: rgb(207, 2, 207);
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+}
+header h1 {
+    text-align: center;
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header p {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    float: left;
+    color: var(--text);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 33%;
+}
+
+.placeholder {
+    height: 200px;
+    width: 250px;
+}
+
+footer {
+    color: var(--text);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
